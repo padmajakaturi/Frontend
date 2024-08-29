@@ -1,6 +1,9 @@
 *{
     background-color:#222;
     color: #fff;
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
 }
 .name{
 font-size: 1rem;
@@ -8,4 +11,19 @@ font-weight: 700;
 font-family: Arial, Helvetica, sans-serif;
 filter: drop-shadow(2px 2px 10px rgb(255, 255, 0));
 color: yellow;
+}
+.banner{
+    background-image:url("https://occ-0-5261-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcTxGzD4HtoNuDigmmEmZ-vpHqN1nLQv43EGZXBcSQnbY70S-KKCFp5qqYuxLiqG5lHPcI7vCCIJ3sn8TcbvjHWRyhDrAv2BMgPE.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.posters{
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    padding: ;
+    
 }
