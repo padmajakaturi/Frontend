@@ -1,0 +1,109 @@
+* {
+    background-color: #222;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.name {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: Arial, Helvetica, sans-serif
+    
+    
+}
+
+.banner {
+    background-image: url("https://occ-0-5261-3662.1.nflxso.net/dnm/api/v6/6AYY37jfdO6hpXcMjf9Yu5cnmO0/AAAABcTxGzD4HtoNuDigmmEmZ-vpHqN1nLQv43EGZXBcSQnbY70S-KKCFp5qqYuxLiqG5lHPcI7vCCIJ3sn8TcbvjHWRyhDrAv2BMgPE.jpg");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+
+.posters {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+
+}
+
+.posters::-webkit-scrollbar {
+    display: none;
+}
+
+.poster {
+    margin: 0% 0.5%;
+    border-radius: 0.4%;
+}
+
+h1 {
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    padding: 20px 0px 10px 10px;
+    font-size: 2rem;
+}
+
+h3 {
+    text-align: center;
+    font-weight:500  ; 
+    font-family: arial;
+    font-size: 1rem;
+}
+.header{
+    background-color: black;
+    display:inline;
+    padding: 10px 50px;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #efeaea;
+    
+}
+.header .buttons{
+    display: inline-flexbox;
+   
+}
+.header button{
+    
+}
+.logo img{
+    width: 150px;
+    height:50px;
+    margin:0px 0px 0px 20px;
+}
+.data{
+   font-size: 17px;
+   margin: 0px 0px 30px 15px;
+   font-family: sans-serif;
+}
+.buttons{
+    display:flex;  
+}
+.b0{
+    margin: 0.5% 0% 0% 65%;
+}
+.b1{  
+    width:130px;
+    height:40px; 
+    background-color: rgb(230, 6, 6);
+    border-radius: 6%;
+    margin: 0% 0% 0% 0.50%;
+    border-radius: 5px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+   
+}
+.b2{  
+    width:80px;
+    height:40px; 
+    background-color:#0f0e0e;
+    border-radius: 0.5%;
+    margin: 0% 0% 0% 0.50%;
+    border-radius: 2px;
+    font-weight: 700;
+    border-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
