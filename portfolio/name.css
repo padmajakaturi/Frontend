@@ -1,0 +1,69 @@
+body{
+    
+    animation: body 5s infinite;
+}
+svg{
+    margin: 15% 10% 15% 20%;
+}
+@keyframes body{
+    0%{
+        background-color: black;
+    }
+    25%{
+        background-color: rgb(156, 114, 8);
+    }
+    50%{
+        background-color: darkgreen;
+    }
+    75%{
+        background-color: rgb(66, 4, 92);
+    }
+    100%{
+        background-color: rgb(105, 14, 14);
+    }
+}
+svg path:nth-child(1){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(2){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(3){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(4){
+stroke-dasharray: 500px;
+stroke-dashoffset: 500px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(5){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(6){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+svg path:nth-child(7){
+stroke-dasharray: 300px;
+stroke-dashoffset: 300px;
+animation: mov 5s infinite forwards;
+}
+@keyframes mov{
+    0%{
+        stroke-dashoffset: 0;
+    }
+    100%{
+        stroke-dashoffset: 100;
+        stroke-dasharray: 0;
+    }
+}
+
