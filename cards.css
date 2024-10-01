@@ -1,0 +1,32 @@
+nav{
+    display: flex;
+    background-color: black;
+    padding: 5px 10px 0px 30px;
+    justify-content: space-between;
+}
+.logo img{
+    object-fit: contain;
+    max-width: 20%;
+    align-items: center;
+}
+.cards{
+    display:flex;
+    margin:10px ;
+    text-align: center;
+    padding: 5px 10px;
+    
+}
+.cards .card img{
+    object-fit: contain;
+    max-width: 40%;
+    margin: 10px 10px;
+}
+.cards .card{
+    border: 2px solid black;
+    margin: 20px 30px;
+    padding: 10px 30px;
+    transition: transform 1s;
+}
+.cards .card:hover{
+    transform: scale(1.09);
+}
