@@ -1,0 +1,32 @@
+*{
+    background-color: bisque;
+}
+h1{
+    text-align: center;
+}
+.banner{
+    background-image: url("https://rukminim2.flixcart.com/image/850/1000/kgsb1jk0-0/poster/n/h/y/medium-twfnp2-beautiful-waterfall-nature-view-large-size-high-original-imafwy37qv2b5g3v.jpeg?q=20&crop=false");
+    background-size: cover;
+    background-position: center center;
+    max-width: 100%;
+    background-repeat: no-repeat;
+    height: 600px;
+}
+.cards {
+    display: flex;
+    overflow-y: hidden;
+    overflow-x: scroll;
+    margin: 1% 0.5%;
+}
+
+.cards::-webkit-scrollbar {
+    display: none;
+}
+.card{
+   
+    width: 20%;
+    height: 20%;
+}
+.card img{
+    border-radius: 10px;
+}
